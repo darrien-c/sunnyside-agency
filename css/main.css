@@ -69,6 +69,10 @@ body #navbar #navbar--container #navbar--wrapper #hamburger-menu .bar1, body #na
     cursor: pointer;
     font-size: 16px;
   }
+  body #navbar #navbar--container #navbar--wrapper #nav-list-desktop ul li:hover {
+    background: hsl(198deg, 62%, 26%);
+    border-radius: 30px;
+  }
   body #navbar #navbar--container #navbar--wrapper #nav-list-desktop ul li:last-child {
     background: hsl(0deg, 0%, 100%);
     color: #000;
@@ -76,6 +80,10 @@ body #navbar #navbar--container #navbar--wrapper #hamburger-menu .bar1, body #na
     font-size: 14px;
     text-transform: uppercase;
     border-radius: 50px;
+  }
+  body #navbar #navbar--container #navbar--wrapper #nav-list-desktop ul li:last-child:hover {
+    background: hsl(198deg, 62%, 26%);
+    color: hsl(0deg, 0%, 100%);
   }
 }
 body #navbar #nav-list {
