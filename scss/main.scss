@@ -389,8 +389,11 @@ body{
     .section-four {
         padding: 50px 0;
         
+        @media(min-width: $tablet-wide) {
+            padding: 100px;
+        }
         @media(min-width: $desktop) {
-            padding: 120px 0;
+            padding: 200px;
          }
 
         .content--main {
@@ -644,7 +647,7 @@ body{
 
             @media(min-width: $tablet-wide) {
                 grid-template-columns: repeat(3, 1fr);
-                padding: 0 50px;
+                padding: 0 10px;
             }
             
             .testimonial {
@@ -671,7 +674,10 @@ body{
                     margin: 0 auto;
 
                     @media(min-width: $tablet-wide) {
-                        max-width: 400px;
+                        max-width: 295px;
+                    }
+                    @media(min-width: $desktop) {
+                        max-width: 450px;                      
                     }
                     @media(min-width: $wide-desktop) {
                         max-width: 550px;
@@ -683,7 +689,7 @@ body{
                 
 
                     .testimonial-info {
-                        line-height: 1.55;
+                        line-height: 1.4;
                     }
 
                     .testimonial-personal {

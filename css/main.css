@@ -317,9 +317,14 @@ body .main-panels-container .section-three img {
 body .main-panels-container .section-four {
   padding: 50px 0;
 }
+@media (min-width: 1025px) {
+  body .main-panels-container .section-four {
+    padding: 100px;
+  }
+}
 @media (min-width: 1440px) {
   body .main-panels-container .section-four {
-    padding: 120px 0;
+    padding: 200px;
   }
 }
 @media (min-width: 1025px) {
@@ -546,7 +551,7 @@ body .section-seven .testimonials-wrapper {
 @media (min-width: 1025px) {
   body .section-seven .testimonials-wrapper {
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 50px;
+    padding: 0 10px;
   }
 }
 body .section-seven .testimonials-wrapper .testimonial .testimonial-profile {
@@ -571,7 +576,12 @@ body .section-seven .testimonials-wrapper .testimonial .testimonial-content {
 }
 @media (min-width: 1025px) {
   body .section-seven .testimonials-wrapper .testimonial .testimonial-content {
-    max-width: 400px;
+    max-width: 295px;
+  }
+}
+@media (min-width: 1440px) {
+  body .section-seven .testimonials-wrapper .testimonial .testimonial-content {
+    max-width: 450px;
   }
 }
 @media (min-width: 1920px) {
@@ -580,7 +590,7 @@ body .section-seven .testimonials-wrapper .testimonial .testimonial-content {
   }
 }
 body .section-seven .testimonials-wrapper .testimonial .testimonial-content .testimonial-info {
-  line-height: 1.55;
+  line-height: 1.4;
 }
 body .section-seven .testimonials-wrapper .testimonial .testimonial-content .testimonial-personal {
   margin-top: 20px;
