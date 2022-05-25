@@ -332,6 +332,11 @@ body .main-panels-container .section-four {
 }
 @media (min-width: 1440px) {
   body .main-panels-container .section-four {
+    padding: 140px;
+  }
+}
+@media (min-width: 1920px) {
+  body .main-panels-container .section-four {
     padding: 200px;
   }
 }

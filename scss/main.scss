@@ -403,8 +403,11 @@ body{
             padding: 100px;
         }
         @media(min-width: $desktop) {
+            padding: 140px;
+        }
+        @media(min-width: $wide-desktop) {
             padding: 200px;
-         }
+        }
 
         .content--main {
 
